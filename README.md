@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ===================== 1. ANIMATED BANNER ===================== -->
-[![banner](https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0a1f0f,100:0d1117&height=180&text=HARI%20OM%20KASAUNDHAN&fontSize=42&fontColor=00FF9C&fontAlignY=45&desc=Full%20Stack%20Developer%20%7C%20AI%20%26%20ML%20Engineer%20%7C%20Open%20Source%20Builder&descColor=00BFFF&descSize=16&descAlignY=68&stroke=00FF9C&strokeWidth=1)](https://github.com/sangamyo)
+<!-- ===================== 1. CUSTOM BANNER ===================== -->
+[![banner](https://raw.githubusercontent.com/sangamyo/sangamyo/main/banner.png)](https://github.com/sangamyo)
 
 <!-- ===================== 2. TYPING SVG ===================== -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1000&color=00FF9C&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+AI+Builder+%7C+CS+Undergrad;%24+stack+%E2%86%92+Next.js+%7C+FastAPI+%7C+MongoDB+%7C+Python+%7C+Java;%24+building+%E2%86%92+ML+models+%7C+DSA+mastery+%7C+AI-powered+apps;%24+shipped+%E2%86%92+PureWashr+%7C+AlgoFlow+%7C+ATS+Checker+%7C+SyncroNet;%24+status+%E2%86%92+Open+to+SWE+roles+%5B+actively+looking+%5D)](https://github.com/sangamyo)
