@@ -4,7 +4,7 @@
 [![banner](https://raw.githubusercontent.com/sangamyo/sangamyo/main/banner.png)](https://github.com/sangamyo)
 
 <!-- ===================== 2. TYPING SVG ===================== -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1000&color=00FF9C&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+AI+Builder+%7C+CS+Undergrad;%24+stack+%E2%86%92+Next.js+%7C+FastAPI+%7C+MongoDB+%7C+Python+%7C+Java;%24+building+%E2%86%92+ML+models+%7C+DSA+mastery+%7C+AI-powered+apps;%24+shipped+%E2%86%92+PureWashr+%7C+AlgoFlow+%7C+ATS+Checker+%7C+SyncroNet;%24+status+%E2%86%92+Open+to+SWE+roles+%5B+actively+looking+%5D)](https://github.com/sangamyo)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1000&color=00FF9C&background=0D111700&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%24+whoami+%E2%86%92+Full+Stack+Dev+%7C+AI+Builder+%7C+CS+Undergrad;%24+stack+%E2%86%92+Next.js+%7C+FastAPI+%7C+MongoDB+%7C+Python+%7C+Java;%24+building+%E2%86%92+ML+models+%7C+DSA+mastery+%7C+AI-powered+apps;%24+shipped+%E2%86%92+GST+Recon+AI+%7C+PDF+RAG+Chat+%7C+AlgoFlow+%7C+PureWashr;%24+status+%E2%86%92+Open+to+SWE+roles+%5B+actively+looking+%5D)](https://github.com/sangamyo)
 
 </div>
 
@@ -25,7 +25,7 @@
 <!-- ===================== 4. CTA BUTTONS ===================== -->
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-00FF9C?style=for-the-badge&labelColor=161B22&color=00FF9C&logoColor=0d1117)](https://3d-portfolio-3sin.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-00FF9C?style=for-the-badge&labelColor=161B22&color=00FF9C&logoColor=0d1117)](https://hari-portfolio-3d.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00BFFF?style=for-the-badge&logo=linkedin&logoColor=0d1117&labelColor=161B22&color=00BFFF)](https://www.linkedin.com/in/hari-om-kasaundhan-321b0b2a6/)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-00FF9C?style=for-the-badge&logo=gmail&logoColor=0d1117&labelColor=161B22&color=00FF9C)](mailto:sangamgupta988@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-@sangamyo-00BFFF?style=for-the-badge&logo=github&logoColor=0d1117&labelColor=161B22&color=00BFFF)](https://github.com/sangamyo)
@@ -125,6 +125,94 @@
 ## `$ ls -la projects/`
 
 <details open>
+<summary><b>🟢 PDF RAG Chat — Multimodal Document Q&A</b></summary>
+
+<br>
+
+| Attribute | Details |
+|---|---|
+| **Stack** | Python, PyMuPDF, sentence-transformers, BM25, Groq, Streamlit |
+| **Live** | [pdf-rag-chat-hariom.streamlit.app](https://pdf-rag-chat-hariom.streamlit.app) |
+| **Repo** | [github.com/sangamyo/pdf-rag-chat](https://github.com/sangamyo/pdf-rag-chat) |
+| **Scale** | Text, tables, charts and images inside PDFs |
+| **Impact** | Cited answers grounded in the source document |
+
+- Built a multimodal RAG pipeline that extracts text, tables and figures and captions charts with a vision LLM
+- Hybrid BM25 + embedding retrieval with cited, page-referenced answers in a Streamlit chat UI
+
+</details>
+
+<details>
+<summary><b>🟢 GST Recon AI — GSTR-2B Reconciliation for CA Firms</b></summary>
+
+<br>
+
+| Attribute | Details |
+|---|---|
+| **Stack** | FastAPI, PostgreSQL, SQLAlchemy, pandas, React, TypeScript, Tailwind |
+| **Live** | [gst-recon-ai.vercel.app](https://gst-recon-ai.vercel.app) |
+| **Repo** | [github.com/sangamyo/gst-recon-ai](https://github.com/sangamyo/gst-recon-ai) |
+| **Scale** | Multi-client workspaces, in-process or Celery job queue |
+| **Impact** | Flags ITC gaps, tax mismatches and risky suppliers automatically |
+
+- Matches purchase-register invoices against GSTR-2B across inconsistent invoice numbers and date formats
+- Generates 5-sheet Excel reports with a dashboard for match rate, ITC variance and top-risk GSTINs
+
+</details>
+
+<details>
+<summary><b>🟢 Bank Statement → Excel — PDF Parser for Indian Banks</b></summary>
+
+<br>
+
+| Attribute | Details |
+|---|---|
+| **Stack** | FastAPI, pdfplumber, pandas, openpyxl, React, TypeScript |
+| **Live** | [bank-statement-to-excel-virid.vercel.app](https://bank-statement-to-excel-virid.vercel.app) |
+| **Repo** | [github.com/sangamyo/bank-statement-to-excel](https://github.com/sangamyo/bank-statement-to-excel) |
+| **Scale** | HDFC, SBI, ICICI, Axis, Kotak and PNB layouts |
+| **Impact** | Clean, balance-validated transactions from raw statement PDFs |
+
+- Layout-aware column detection with sticky headers, multi-line narration merging and IFSC-based bank detection
+- Validates every running balance; privacy-first design with per-browser history and auto-deleted uploads
+
+</details>
+
+<details>
+<summary><b>🟢 2026 In My Control — Habit & Goal Dashboard</b></summary>
+
+<br>
+
+| Attribute | Details |
+|---|---|
+| **Stack** | React, Tailwind, Recharts, Express, MongoDB, JWT, node-cron |
+| **Repo** | [github.com/sangamyo/2026-in-my-control](https://github.com/sangamyo/2026-in-my-control) |
+| **Scale** | Daily check-ins, streaks and a year-long consistency heatmap |
+| **Impact** | Turns daily habits into measurable streaks and weekly trends |
+
+- Built a mobile-first PWA dashboard with streak tracking, heatmap and weekly analytics
+- Secure JWT auth, hardened input validation and a nightly snapshot job
+
+</details>
+
+<details>
+<summary><b>🟢 Excel2WhatsApp Pro — Bulk WhatsApp Campaigns</b></summary>
+
+<br>
+
+| Attribute | Details |
+|---|---|
+| **Stack** | FastAPI, SQLAlchemy, Celery, Redis, PostgreSQL, WhatsApp Cloud API |
+| **Repo** | [github.com/sangamyo/excel2whatsapp-pro](https://github.com/sangamyo/excel2whatsapp-pro) |
+| **Scale** | Plan-aware quotas, background delivery workers |
+| **Impact** | Spreadsheet uploads become tracked WhatsApp broadcast campaigns |
+
+- Implemented signed Meta webhooks that track sent → delivered → read status per message
+- Falls back to in-process delivery when Redis is unavailable for single-service deploys
+
+</details>
+
+<details>
 <summary><b>🟢 AlgoFlow Tracker — Full Stack DSA Analytics Platform</b></summary>
 
 <br>
@@ -382,7 +470,7 @@ current_focus:
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-3d--portfolio-00FF9C?style=for-the-badge&labelColor=161B22)](https://3d-portfolio-3sin.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-hari--portfolio--3d-00FF9C?style=for-the-badge&labelColor=161B22)](https://hari-portfolio-3d.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hari--om--kasaundhan-00BFFF?style=for-the-badge&logo=linkedin&logoColor=0d1117&labelColor=161B22)](https://www.linkedin.com/in/hari-om-kasaundhan-321b0b2a6/)
 [![Email](https://img.shields.io/badge/Gmail-sangamgupta988-00FF9C?style=for-the-badge&logo=gmail&logoColor=0d1117&labelColor=161B22)](mailto:sangamgupta988@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-@sangamyo-00BFFF?style=for-the-badge&logo=github&logoColor=0d1117&labelColor=161B22)](https://github.com/sangamyo)
